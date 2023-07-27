@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFAC51C02A72D9D8006CA0D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC51BF2A72D9D8006CA0D1 /* AppDelegate.swift */; };
+		DFAC51C22A72D9D8006CA0D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC51C12A72D9D8006CA0D1 /* SceneDelegate.swift */; };
+		DFAC51C42A72D9D8006CA0D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC51C32A72D9D8006CA0D1 /* ViewController.swift */; };
+		DFAC51C72A72D9D8006CA0D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFAC51C52A72D9D8006CA0D1 /* Main.storyboard */; };
+		DFAC51CA2A72D9D8006CA0D1 /* WitmotionManubrium.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFAC51C82A72D9D8006CA0D1 /* WitmotionManubrium.xcdatamodeld */; };
+		DFAC51CC2A72D9DD006CA0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAC51CB2A72D9DD006CA0D1 /* Assets.xcassets */; };
+		DFAC51CF2A72D9DD006CA0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFAC51CD2A72D9DD006CA0D1 /* LaunchScreen.storyboard */; };
+		DFAC51DA2A72D9DD006CA0D1 /* WitmotionManubriumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC51D92A72D9DD006CA0D1 /* WitmotionManubriumTests.swift */; };
+		DFAC51E42A72D9DD006CA0D1 /* WitmotionManubriumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC51E32A72D9DD006CA0D1 /* WitmotionManubriumUITests.swift */; };
+		DFAC51E62A72D9DD006CA0D1 /* WitmotionManubriumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC51E52A72D9DD006CA0D1 /* WitmotionManubriumUITestsLaunchTests.swift */; };
+		DFAC51FE2A72DA49006CA0D1 /* BleExample in Resources */ = {isa = PBXBuildFile; fileRef = DFAC51FB2A72DA48006CA0D1 /* BleExample */; };
+		DFAC51FF2A72DA49006CA0D1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DFAC51FC2A72DA48006CA0D1 /* README.md */; };
+		DFAC52002A72DA49006CA0D1 /* WitSDK in Resources */ = {isa = PBXBuildFile; fileRef = DFAC51FD2A72DA49006CA0D1 /* WitSDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFAC51D62A72D9DD006CA0D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFAC51B42A72D9D8006CA0D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFAC51BB2A72D9D8006CA0D1;
+			remoteInfo = WitmotionManubrium;
+		};
+		DFAC51E02A72D9DD006CA0D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFAC51B42A72D9D8006CA0D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFAC51BB2A72D9D8006CA0D1;
+			remoteInfo = WitmotionManubrium;
+		};
+		DFAC51F72A72DA47006CA0D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFAC51F22A72DA47006CA0D1 /* WitSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D43B6E3F28C61231004376E0;
+			remoteInfo = WitSDK;
+		};
+		DFAC51F92A72DA47006CA0D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFAC51F22A72DA47006CA0D1 /* WitSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D4A23C602A11E1BF000A3ADF;
+			remoteInfo = BleExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFAC51BC2A72D9D8006CA0D1 /* WitmotionManubrium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WitmotionManubrium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAC51BF2A72D9D8006CA0D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFAC51C12A72D9D8006CA0D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFAC51C32A72D9D8006CA0D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFAC51C62A72D9D8006CA0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFAC51C92A72D9D8006CA0D1 /* WitmotionManubrium.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WitmotionManubrium.xcdatamodel; sourceTree = "<group>"; };
+		DFAC51CB2A72D9DD006CA0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFAC51CE2A72D9DD006CA0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFAC51D02A72D9DD006CA0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFAC51D52A72D9DD006CA0D1 /* WitmotionManubriumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WitmotionManubriumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAC51D92A72D9DD006CA0D1 /* WitmotionManubriumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitmotionManubriumTests.swift; sourceTree = "<group>"; };
+		DFAC51DF2A72D9DD006CA0D1 /* WitmotionManubriumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WitmotionManubriumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAC51E32A72D9DD006CA0D1 /* WitmotionManubriumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitmotionManubriumUITests.swift; sourceTree = "<group>"; };
+		DFAC51E52A72D9DD006CA0D1 /* WitmotionManubriumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitmotionManubriumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFAC51F22A72DA47006CA0D1 /* WitSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WitSDK.xcodeproj; path = "../../../WitBluetooth_BWT901BLE5_0-main 2/IOS_swift/WitSDK.xcodeproj"; sourceTree = "<group>"; };
+		DFAC51FB2A72DA48006CA0D1 /* BleExample */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BleExample; path = "../../../WitBluetooth_BWT901BLE5_0-main 2/IOS_swift/BleExample"; sourceTree = "<group>"; };
+		DFAC51FC2A72DA48006CA0D1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../WitBluetooth_BWT901BLE5_0-main 2/IOS_swift/README.md"; sourceTree = "<group>"; };
+		DFAC51FD2A72DA49006CA0D1 /* WitSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WitSDK; path = "../../../WitBluetooth_BWT901BLE5_0-main 2/IOS_swift/WitSDK"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFAC51B92A72D9D8006CA0D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAC51D22A72D9DD006CA0D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAC51DC2A72D9DD006CA0D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFAC51B32A72D9D8006CA0D1 = {
+			isa = PBXGroup;
+			children = (
+				DFAC51FB2A72DA48006CA0D1 /* BleExample */,
+				DFAC51FC2A72DA48006CA0D1 /* README.md */,
+				DFAC51FD2A72DA49006CA0D1 /* WitSDK */,
+				DFAC51F22A72DA47006CA0D1 /* WitSDK.xcodeproj */,
+				DFAC51BE2A72D9D8006CA0D1 /* WitmotionManubrium */,
+				DFAC51D82A72D9DD006CA0D1 /* WitmotionManubriumTests */,
+				DFAC51E22A72D9DD006CA0D1 /* WitmotionManubriumUITests */,
+				DFAC51BD2A72D9D8006CA0D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFAC51BD2A72D9D8006CA0D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC51BC2A72D9D8006CA0D1 /* WitmotionManubrium.app */,
+				DFAC51D52A72D9DD006CA0D1 /* WitmotionManubriumTests.xctest */,
+				DFAC51DF2A72D9DD006CA0D1 /* WitmotionManubriumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFAC51BE2A72D9D8006CA0D1 /* WitmotionManubrium */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC51BF2A72D9D8006CA0D1 /* AppDelegate.swift */,
+				DFAC51C12A72D9D8006CA0D1 /* SceneDelegate.swift */,
+				DFAC51C32A72D9D8006CA0D1 /* ViewController.swift */,
+				DFAC51C52A72D9D8006CA0D1 /* Main.storyboard */,
+				DFAC51CB2A72D9DD006CA0D1 /* Assets.xcassets */,
+				DFAC51CD2A72D9DD006CA0D1 /* LaunchScreen.storyboard */,
+				DFAC51D02A72D9DD006CA0D1 /* Info.plist */,
+				DFAC51C82A72D9D8006CA0D1 /* WitmotionManubrium.xcdatamodeld */,
+			);
+			path = WitmotionManubrium;
+			sourceTree = "<group>";
+		};
+		DFAC51D82A72D9DD006CA0D1 /* WitmotionManubriumTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC51D92A72D9DD006CA0D1 /* WitmotionManubriumTests.swift */,
+			);
+			path = WitmotionManubriumTests;
+			sourceTree = "<group>";
+		};
+		DFAC51E22A72D9DD006CA0D1 /* WitmotionManubriumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC51E32A72D9DD006CA0D1 /* WitmotionManubriumUITests.swift */,
+				DFAC51E52A72D9DD006CA0D1 /* WitmotionManubriumUITestsLaunchTests.swift */,
+			);
+			path = WitmotionManubriumUITests;
+			sourceTree = "<group>";
+		};
+		DFAC51F32A72DA47006CA0D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFAC51F82A72DA47006CA0D1 /* WitSDK.framework */,
+				DFAC51FA2A72DA47006CA0D1 /* BleExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFAC51BB2A72D9D8006CA0D1 /* WitmotionManubrium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFAC51E92A72D9DD006CA0D1 /* Build configuration list for PBXNativeTarget "WitmotionManubrium" */;
+			buildPhases = (
+				DFAC51B82A72D9D8006CA0D1 /* Sources */,
+				DFAC51B92A72D9D8006CA0D1 /* Frameworks */,
+				DFAC51BA2A72D9D8006CA0D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WitmotionManubrium;
+			productName = WitmotionManubrium;
+			productReference = DFAC51BC2A72D9D8006CA0D1 /* WitmotionManubrium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFAC51D42A72D9DD006CA0D1 /* WitmotionManubriumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFAC51EC2A72D9DD006CA0D1 /* Build configuration list for PBXNativeTarget "WitmotionManubriumTests" */;
+			buildPhases = (
+				DFAC51D12A72D9DD006CA0D1 /* Sources */,
+				DFAC51D22A72D9DD006CA0D1 /* Frameworks */,
+				DFAC51D32A72D9DD006CA0D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFAC51D72A72D9DD006CA0D1 /* PBXTargetDependency */,
+			);
+			name = WitmotionManubriumTests;
+			productName = WitmotionManubriumTests;
+			productReference = DFAC51D52A72D9DD006CA0D1 /* WitmotionManubriumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFAC51DE2A72D9DD006CA0D1 /* WitmotionManubriumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFAC51EF2A72D9DD006CA0D1 /* Build configuration list for PBXNativeTarget "WitmotionManubriumUITests" */;
+			buildPhases = (
+				DFAC51DB2A72D9DD006CA0D1 /* Sources */,
+				DFAC51DC2A72D9DD006CA0D1 /* Frameworks */,
+				DFAC51DD2A72D9DD006CA0D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFAC51E12A72D9DD006CA0D1 /* PBXTargetDependency */,
+			);
+			name = WitmotionManubriumUITests;
+			productName = WitmotionManubriumUITests;
+			productReference = DFAC51DF2A72D9DD006CA0D1 /* WitmotionManubriumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFAC51B42A72D9D8006CA0D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DFAC51BB2A72D9D8006CA0D1 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					DFAC51D42A72D9DD006CA0D1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DFAC51BB2A72D9D8006CA0D1;
+					};
+					DFAC51DE2A72D9DD006CA0D1 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = DFAC51BB2A72D9D8006CA0D1;
+					};
+				};
+			};
+			buildConfigurationList = DFAC51B72A72D9D8006CA0D1 /* Build configuration list for PBXProject "WitmotionManubrium" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFAC51B32A72D9D8006CA0D1;
+			productRefGroup = DFAC51BD2A72D9D8006CA0D1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DFAC51F32A72DA47006CA0D1 /* Products */;
+					ProjectRef = DFAC51F22A72DA47006CA0D1 /* WitSDK.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DFAC51BB2A72D9D8006CA0D1 /* WitmotionManubrium */,
+				DFAC51D42A72D9DD006CA0D1 /* WitmotionManubriumTests */,
+				DFAC51DE2A72D9DD006CA0D1 /* WitmotionManubriumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DFAC51F82A72DA47006CA0D1 /* WitSDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WitSDK.framework;
+			remoteRef = DFAC51F72A72DA47006CA0D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DFAC51FA2A72DA47006CA0D1 /* BleExample.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = BleExample.app;
+			remoteRef = DFAC51F92A72DA47006CA0D1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFAC51BA2A72D9D8006CA0D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAC51CF2A72D9DD006CA0D1 /* LaunchScreen.storyboard in Resources */,
+				DFAC51FE2A72DA49006CA0D1 /* BleExample in Resources */,
+				DFAC52002A72DA49006CA0D1 /* WitSDK in Resources */,
+				DFAC51FF2A72DA49006CA0D1 /* README.md in Resources */,
+				DFAC51CC2A72D9DD006CA0D1 /* Assets.xcassets in Resources */,
+				DFAC51C72A72D9D8006CA0D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAC51D32A72D9DD006CA0D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAC51DD2A72D9DD006CA0D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFAC51B82A72D9D8006CA0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAC51C42A72D9D8006CA0D1 /* ViewController.swift in Sources */,
+				DFAC51CA2A72D9D8006CA0D1 /* WitmotionManubrium.xcdatamodeld in Sources */,
+				DFAC51C02A72D9D8006CA0D1 /* AppDelegate.swift in Sources */,
+				DFAC51C22A72D9D8006CA0D1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAC51D12A72D9DD006CA0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAC51DA2A72D9DD006CA0D1 /* WitmotionManubriumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFAC51DB2A72D9DD006CA0D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAC51E62A72D9DD006CA0D1 /* WitmotionManubriumUITestsLaunchTests.swift in Sources */,
+				DFAC51E42A72D9DD006CA0D1 /* WitmotionManubriumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFAC51D72A72D9DD006CA0D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFAC51BB2A72D9D8006CA0D1 /* WitmotionManubrium */;
+			targetProxy = DFAC51D62A72D9DD006CA0D1 /* PBXContainerItemProxy */;
+		};
+		DFAC51E12A72D9DD006CA0D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFAC51BB2A72D9D8006CA0D1 /* WitmotionManubrium */;
+			targetProxy = DFAC51E02A72D9DD006CA0D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFAC51C52A72D9D8006CA0D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFAC51C62A72D9D8006CA0D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFAC51CD2A72D9DD006CA0D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFAC51CE2A72D9DD006CA0D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFAC51E72A72D9DD006CA0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFAC51E82A72D9DD006CA0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFAC51EA2A72D9DD006CA0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ND4Y8B3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WitmotionManubrium/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BKE.WitmotionManubrium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFAC51EB2A72D9DD006CA0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ND4Y8B3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WitmotionManubrium/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BKE.WitmotionManubrium;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFAC51ED2A72D9DD006CA0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ND4Y8B3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BKE.WitmotionManubriumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WitmotionManubrium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WitmotionManubrium";
+			};
+			name = Debug;
+		};
+		DFAC51EE2A72D9DD006CA0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ND4Y8B3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BKE.WitmotionManubriumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WitmotionManubrium.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WitmotionManubrium";
+			};
+			name = Release;
+		};
+		DFAC51F02A72D9DD006CA0D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ND4Y8B3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BKE.WitmotionManubriumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WitmotionManubrium;
+			};
+			name = Debug;
+		};
+		DFAC51F12A72D9DD006CA0D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94ND4Y8B3S;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BKE.WitmotionManubriumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WitmotionManubrium;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFAC51B72A72D9D8006CA0D1 /* Build configuration list for PBXProject "WitmotionManubrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAC51E72A72D9DD006CA0D1 /* Debug */,
+				DFAC51E82A72D9DD006CA0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAC51E92A72D9DD006CA0D1 /* Build configuration list for PBXNativeTarget "WitmotionManubrium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAC51EA2A72D9DD006CA0D1 /* Debug */,
+				DFAC51EB2A72D9DD006CA0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAC51EC2A72D9DD006CA0D1 /* Build configuration list for PBXNativeTarget "WitmotionManubriumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAC51ED2A72D9DD006CA0D1 /* Debug */,
+				DFAC51EE2A72D9DD006CA0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAC51EF2A72D9DD006CA0D1 /* Build configuration list for PBXNativeTarget "WitmotionManubriumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAC51F02A72D9DD006CA0D1 /* Debug */,
+				DFAC51F12A72D9DD006CA0D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFAC51C82A72D9D8006CA0D1 /* WitmotionManubrium.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFAC51C92A72D9D8006CA0D1 /* WitmotionManubrium.xcdatamodel */,
+			);
+			currentVersion = DFAC51C92A72D9D8006CA0D1 /* WitmotionManubrium.xcdatamodel */;
+			path = WitmotionManubrium.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DFAC51B42A72D9D8006CA0D1 /* Project object */;
+}
