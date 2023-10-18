@@ -19,6 +19,7 @@
 		DFAC51E62A72D9DD006CA0D1 /* WitmotionManubriumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC51E52A72D9DD006CA0D1 /* WitmotionManubriumUITestsLaunchTests.swift */; };
 		DFE281AB2AE0873F00498357 /* BleExample in Resources */ = {isa = PBXBuildFile; fileRef = DFE281AA2AE0873F00498357 /* BleExample */; };
 		DFE281AD2AE08C7900498357 /* WitSDK in Resources */ = {isa = PBXBuildFile; fileRef = DFE281AC2AE08C7900498357 /* WitSDK */; };
+		DFE281AF2AE08E2900498357 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DFE281AE2AE08E2900498357 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		DFAC51F22A72DA47006CA0D1 /* WitSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WitSDK.xcodeproj; path = "../../../WitBluetooth_BWT901BLE5_0-main 2/IOS_swift/WitSDK.xcodeproj"; sourceTree = "<group>"; };
 		DFE281AA2AE0873F00498357 /* BleExample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BleExample; sourceTree = "<group>"; };
 		DFE281AC2AE08C7900498357 /* WitSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WitSDK; sourceTree = "<group>"; };
+		DFE281AE2AE08E2900498357 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		DFAC51B32A72D9D8006CA0D1 = {
 			isa = PBXGroup;
 			children = (
+				DFE281AE2AE08E2900498357 /* README.md */,
 				DFE281AA2AE0873F00498357 /* BleExample */,
 				DFE281AC2AE08C7900498357 /* WitSDK */,
 				DFAC51F22A72DA47006CA0D1 /* WitSDK.xcodeproj */,
@@ -288,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE281AF2AE08E2900498357 /* README.md in Resources */,
 				DFAC51CF2A72D9DD006CA0D1 /* LaunchScreen.storyboard in Resources */,
 				DFE281AB2AE0873F00498357 /* BleExample in Resources */,
 				DFE281AD2AE08C7900498357 /* WitSDK in Resources */,
