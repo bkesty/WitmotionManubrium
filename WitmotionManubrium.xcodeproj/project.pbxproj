@@ -18,8 +18,8 @@
 		DFAC51E42A72D9DD006CA0D1 /* WitmotionManubriumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC51E32A72D9DD006CA0D1 /* WitmotionManubriumUITests.swift */; };
 		DFAC51E62A72D9DD006CA0D1 /* WitmotionManubriumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAC51E52A72D9DD006CA0D1 /* WitmotionManubriumUITestsLaunchTests.swift */; };
 		DFAC51FF2A72DA49006CA0D1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DFAC51FC2A72DA48006CA0D1 /* README.md */; };
-		DFAC52002A72DA49006CA0D1 /* WitSDK in Resources */ = {isa = PBXBuildFile; fileRef = DFAC51FD2A72DA49006CA0D1 /* WitSDK */; };
 		DFE281AB2AE0873F00498357 /* BleExample in Resources */ = {isa = PBXBuildFile; fileRef = DFE281AA2AE0873F00498357 /* BleExample */; };
+		DFE281AD2AE08C7900498357 /* WitSDK in Resources */ = {isa = PBXBuildFile; fileRef = DFE281AC2AE08C7900498357 /* WitSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +70,8 @@
 		DFAC51E52A72D9DD006CA0D1 /* WitmotionManubriumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WitmotionManubriumUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DFAC51F22A72DA47006CA0D1 /* WitSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WitSDK.xcodeproj; path = "../../../WitBluetooth_BWT901BLE5_0-main 2/IOS_swift/WitSDK.xcodeproj"; sourceTree = "<group>"; };
 		DFAC51FC2A72DA48006CA0D1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../../WitBluetooth_BWT901BLE5_0-main 2/IOS_swift/README.md"; sourceTree = "<group>"; };
-		DFAC51FD2A72DA49006CA0D1 /* WitSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = WitSDK; path = "../../../WitBluetooth_BWT901BLE5_0-main 2/IOS_swift/WitSDK"; sourceTree = "<group>"; };
 		DFE281AA2AE0873F00498357 /* BleExample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = BleExample; sourceTree = "<group>"; };
+		DFE281AC2AE08C7900498357 /* WitSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WitSDK; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 			children = (
 				DFE281AA2AE0873F00498357 /* BleExample */,
 				DFAC51FC2A72DA48006CA0D1 /* README.md */,
-				DFAC51FD2A72DA49006CA0D1 /* WitSDK */,
+				DFE281AC2AE08C7900498357 /* WitSDK */,
 				DFAC51F22A72DA47006CA0D1 /* WitSDK.xcodeproj */,
 				DFAC51BE2A72D9D8006CA0D1 /* WitmotionManubrium */,
 				DFAC51D82A72D9DD006CA0D1 /* WitmotionManubriumTests */,
@@ -293,7 +293,7 @@
 			files = (
 				DFAC51CF2A72D9DD006CA0D1 /* LaunchScreen.storyboard in Resources */,
 				DFE281AB2AE0873F00498357 /* BleExample in Resources */,
-				DFAC52002A72DA49006CA0D1 /* WitSDK in Resources */,
+				DFE281AD2AE08C7900498357 /* WitSDK in Resources */,
 				DFAC51FF2A72DA49006CA0D1 /* README.md in Resources */,
 				DFAC51CC2A72D9DD006CA0D1 /* Assets.xcassets in Resources */,
 				DFAC51C72A72D9D8006CA0D1 /* Main.storyboard in Resources */,
